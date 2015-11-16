@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beacon's Lifestyle Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Here comes a nice CDN delievered version of bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Here comes the custom fun -->
+  <link rel="stylesheet" media="screen" href="styles/styles.css">
+  <link rel="stylesheet" media="only screen and (max-width: 1200px)" href="styles/medium.css">
+  <link rel="stylesheet" media="only screen and (max-width: 990px)" href="styles/small.css">
+  <!-- Here come the needed scripts -->
+  <script src="scripts/jquery-2.1.4.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <!-- Gimme dem fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
+  <!-- Favicons save lives -->
+  <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_b281bf7ddb9d_128.png">
+</head>
 
+<body>
+  <div class="container-fluid">
+
+    <div class="blue-background buffer-24 row">
+      <div class="col-lg-3 col-md-12 col-xs-12 logo-center">
+        <img class="logo" src="images/beacon_wink_square.gif" alt="Beacon, a cute puppy, is winking in a loop">
+      </div>
+      <div class="title col-lg-9 col-md-12 text-right text-uppercase">
+        <h1 class="title-name">Beacon Richards</h1>
+        <h4>A Puppy with no Respect for the Law of Man</h4>
+      </div>
+    </div>
+
+    <div class="row spacer">
+      <div class="col-lg-12">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row feat-img">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="images/beacon-sleeps.jpg" alt="This fugitive sleeps in disguise">
+      </div>
+    </div>
+
+    <div class="row spacer">
+      <div class="col-lg-12">
+        <hr>
+      </div>
+    </div>
+
+    <div class="breakout container-fluid blue-background">
+      <div id="feat-work" class="row">
+        <div class="col-md-12">
+          <h2>A Life on the Edge</h2>
+        </div>
+      </div>
+      <div id="projects" class="row text-center">
+        <div class="col-md-4 col-sm-6 col-xs-12" alt="pretty puppy">
+          <img data-target="#project1" data-toggle="modal" class="img-responsive life-pic" src="images/beacon-card-carrier.jpg" alt="Beacon is a bank robber">
+
+
+          <h3 class="project-name text-thick">Bank Robber</h3>
+          <p class="short-descript">Armed with real teeth</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img data-target="#project2" data-toggle="modal" class="img-responsive life-pic" src="images/beacon-law-breaker.jpg" alt="Beacon doesn't follow the law">
+          <h3 class="project-name text-thick">Court Avoider</h3>
+          <p class="short-descript">Not afraid of javels</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img data-target="#project3" data-toggle="modal" class="img-responsive life-pic" src="images/beacon-in-garden.jpg" alt="Beacon is often on the run and in hiding">
+          <h3 class="project-name text-thick">On the Run</h3>
+          <p class="short-descript">Often hard to find</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer">
+      <div class="col-lg-12 footer-content"><a class="footer-link" href="http://beaconthedog.tumblr.com">See More of Beacon's Mischief</a></div>
+    </div>
+
+  </div>
+
+  <!-- Project 1 Modal-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-thick" id="project1Label">Beacon: Bank Robber</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive center-block modal-image" src="images/beacon-card-carrier.jpg">
+          <p class="modal-write-up">Beacon Richards is out to get rich. Like many in America's West, he is disconcerned with what it takes to get to the top. If you intend to leave your payday checks unattended, beware. This outlaw intends to use your money to buy new treats.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 Modal-->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-thick" id="projec2Label">Beacon: Puppy in Contempt</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive center-block modal-image" src="images/beacon-law-breaker.jpg">
+          <p class="modal-write-up">Beacon is a dangerous fiend. Rather than wear a suit and tie when the gavel calls, Beacon doesn't even bother to show up. Parking tickets: eaten. Jail bonds: never posted. Civil judges: out of luck. Beacon is unafraid and on the run.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 Modal-->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-thick" id="project3Label">Beacon: Hiding in Plain Sight</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive center-block modal-image" src="images/beacon-in-garden.jpg">
+          <p class="modal-write-up">Beacon, a dodgy dog, lives under the radar. Whether it is in his neighbor's garden or under his parents' bed, Beacon has a certain knack of finding places he isn't suspected-- securing the space needed to plot his next evil operation.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
