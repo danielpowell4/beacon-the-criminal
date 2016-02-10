@@ -1,2 +1,2 @@
 # clicker-cats
-# jobs-board
+# landing
